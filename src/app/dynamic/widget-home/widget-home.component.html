@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="grid">
+    <div class="p-4">
+      <div class="p-2">
+        <button pButton class="p-button-sm p-button-raised" label="Create Component" (click)="createComponent()"></button>
+      </div>
+      <div class="p-2">
+        <button pButton class="p-button-sm p-button-raised" disabled label="Create Component DI Sysytem" (click)="createComponentX()"></button>
+      </div>
+    </div>
+  </div>
+  <div class="row p-4 shadow-4 h-max m-4">
+    <ng-container #container></ng-container>
+  </div>
+</div>
